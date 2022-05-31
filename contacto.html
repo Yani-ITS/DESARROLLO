@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="/_bootswatch.scss">
     <link rel="stylesheet" href="/_variables.scss">
     <link rel="stylesheet" href="/bootstrap.min.css">
-    
+
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" >Empresa</a>
+            <a class="navbar-brand">Empresa</a>
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
@@ -30,12 +32,55 @@
                         <a class="nav-link" href="/acercaDe.html">Acerca De</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/contacto.html"><u><span class="visually-hidden">(current)</span>Contacto</u></a>
+                        <a class="nav-link active" href="/contacto.html"><u><span
+                                    class="visually-hidden">(current)</span>Contacto</u></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+
+
+    <form>
+        <fieldset>
+            <legend class="col-5 border mt-4 ms-1 text-center"> Dejanos tus datos y nos pondremos en contacto:</legend>
+            <div class="form-group row">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group col-10 ms-2">
+                        <label for="exampleInputEmail1" class="form-label mt-4 fw-bold">Nombre y Apellido</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Nombre Apellido">
+                    </div>
+                    <div class="form-group col-10 ms-2">
+                        <label for="exampleInputEmail1" class="form-label mt-4 fw-bold">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Nombre@ejemplo.com">
+
+                    </div>
+                    <div class="form-group col-10 ms-2">
+                        <label for="exampleInputEmail1" class="form-label mt-4 fw-bold">Teléfono</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="+54 9 299 4139275">
+                        <small id="emailHelp" class="form-text text-muted">Sus datos no serán compartidos con otro
+                            sitio.</small>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group col-10">
+                        <label for="exampleTextarea" class="form-label mt-4 fw-bold">Consulta</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Tu consulta..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+                </div>
+            </div>
+           
+        </fieldset>
+    </form>
+
+
 
     <div class="fixed-bottom">
         <div class="container-fluid bg-light">
@@ -49,4 +94,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
